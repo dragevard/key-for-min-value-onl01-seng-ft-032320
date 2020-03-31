@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   array = []
+  smallest = ""
   name_hash.each do |key, value|
     array.push(value)
   end
@@ -10,7 +11,7 @@ def key_for_min_value(name_hash)
   min_value = array[0]
   name_hash.each do |key, value|
     if value == min_value
-      key
+      smallest == key
     end
   end
   
