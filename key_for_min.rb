@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   small_age = 5000
-  name = ""
+  name = nil
   name_hash.collect do |key, value|
     if value < small_age
       small_age = value
