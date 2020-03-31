@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   key_for_min_value.each do |key, value|
     array.push(value)
   end
-  array.sort!
+  array.sort
   smallest_value = array[0]
   key_for_min_value.each do |key, value|
     if smallest_value == value
